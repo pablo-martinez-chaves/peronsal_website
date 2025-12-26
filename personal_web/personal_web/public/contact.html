@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <style>
+    /* Basic reset and typography */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background: linear-gradient(90deg, #4e54c8, #8f94fb);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px 15px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+      transform: scale(1.1);
+    }
+
+    /* Main content */
+    main {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    main h1 {
+      text-align: center;
+      color: #4e54c8;
+      margin-bottom: 30px;
+    }
+
+    /* Form styling */
+    form {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #4e54c8;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #4e54c8;
+      outline: none;
+      box-shadow: 0 0 8px rgba(78,84,200,0.3);
+    }
+
+    button {
+      background: #4e54c8;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #8f94fb;
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      background: #4e54c8;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Home</a>
+  <a href="about.html">About Me</a>
+  <a href="degree.html">Degree</a>
+  <a href="topic.html">Topic</a>
+  <a href="net.html">Network</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+  <h1>Contact</h1>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" value="">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" value="">
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="5" placeholder=""></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</main>
+
+<footer>
+  <p>© 2025 - My Personal Website</p>
+</footer>
+
+</body>
+</html>
